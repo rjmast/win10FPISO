@@ -20,7 +20,7 @@ def get_latest_links():
     edition_options = edition_dropdown.find_elements_by_tag_name("option")
 
     for option in edition_options:
-        browser.execute_script("arguments[0].setAttribute('value','1429')", option)
+        browser.execute_script("arguments[0].setAttribute('value','1626')", option)
         #browser.execute_script("arguments[0].innerText = '1429'", option)
         option.click()
 
