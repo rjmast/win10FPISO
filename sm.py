@@ -47,3 +47,19 @@ def get_latest_links():
     print(bit64)
     return bit32, bit64
 get_latest_links()
+
+'''
+if (version.equals("2004")) {
+            productEditionId = 1626;
+        } else if (version.equals("1909")) {
+            productEditionId = 1429;
+        } else if (version.equals("1903")) {
+            productEditionId = 1214;
+        } else if (version.equals("1809")) {
+            productEditionId = 1203;
+        } else if (version.equals("1803")) {
+            productEditionId = 651;
+        } else if (version.equals("1709")) {
+            productEditionId = 484;
+        }
+'''
